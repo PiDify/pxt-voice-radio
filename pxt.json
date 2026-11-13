@@ -1,0 +1,23 @@
+{
+    "name": "voice-radio",
+    "version": "0.1.0",
+    "description": "Live push-to-talk voice over the micro:bit radio, megaphone style (micro:bit V2 only)",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "voice.cpp",
+        "voice.ts"
+    ],
+    "testFiles": [],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "disablesVariants": [
+        "mbdal"
+    ],
+    "preferredEditor": "tsprj",
+    "public": true
+}
