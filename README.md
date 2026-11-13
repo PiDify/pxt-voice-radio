@@ -38,5 +38,3 @@ voice.stopTalking()
 | `voice.micLevel()` | microphone level 0-255 while talking |
 
 Voice packets: `[0xA7, idLo, idHi, seq, rate/100, predLo, predHi, stepIndex, 24 bytes of 4-bit ADPCM]`.
-
-MIT licence.
